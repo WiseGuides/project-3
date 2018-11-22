@@ -10,11 +10,6 @@ header {
   margin-bottom: 1.7rem;
 }
 
-.card {
-  /* width: minmax(600px, 800px); */
-  /* margin: auto; */
-}
-
 #author-list {
   width: 200px;
   float: left;
@@ -28,12 +23,12 @@ header {
 
 #author-list p:hover {
   cursor: pointer;
+  color: red;
+  font-weight: bold;
 }
 
 #author-details {
-  /* width: minmax(300px, 400px); */
   float: left;
-  /* position: relative; */
 }
 
 .photo {
@@ -57,6 +52,7 @@ header {
 
 .photo img {
   width: 175px;
+  height: 175px;
   border-radius: 50%;
 }
 
