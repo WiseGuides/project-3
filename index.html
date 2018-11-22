@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Passion+One|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/index.css" />
+    <script src="./javascript/index.js"></script>
     <title>Project 3</title>
   </head>
   <body>
@@ -15,9 +16,9 @@
     </header>
     <main>
       <section id="author-list">
-        <p>Brendan Eich</p>
-        <p>James Gosling</p>
-        <p>Anders Hejlsberg</p>
+        <p onclick="details(this.id)" id="eich">Brendan Eich</p>
+        <p onclick="details(this.id)" id="gosling">James Gosling</p>
+        <p onclick="details(this.id)" id="hejlsberg">Anders Hejlsberg</p>
       </section>
       <section id="author-details">
         <div class="card">

@@ -26,6 +26,10 @@ header {
   margin-bottom: .6rem;
 }
 
+#author-list p:hover {
+  cursor: pointer;
+}
+
 #author-details {
   /* width: minmax(300px, 400px); */
   float: left;
