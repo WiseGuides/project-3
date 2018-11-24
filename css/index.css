@@ -27,9 +27,7 @@ header {
 }
 
 #author-details {
-  /* width: minmax(300px, 400px); */
   float: left;
-  /* position: relative; */
 }
 
 .photo {
